@@ -9,7 +9,7 @@ Factory.define :game do |f|
   f.association(:black_player, :factory => :user)
   f.association(:white_player, :factory => :user)
   f.current_player { |g| g.black_player }
-  f.board_size 19
+#  f.board_size 19
   f.started_at Time.now
 end
 

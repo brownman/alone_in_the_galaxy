@@ -139,7 +139,8 @@ describe User do
   
   
   it "x position: defaults to 0" do
-    User.new(:x).should == 0
+    ap User.new
+    User.new().x.should == 0
   end    
 
   it "gnugo_level should average out resulting level for past games" do

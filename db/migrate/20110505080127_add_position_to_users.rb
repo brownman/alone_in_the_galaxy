@@ -1,8 +1,9 @@
 class AddPositionToUsers < ActiveRecord::Migration
   def self.up
-    add_column :users, :x, :integer
-    add_column :users, :y, :integer
-    add_column :users, :z, :integer
+
+    add_column :users, :x, :integer, :default => 0, :null  => false                          
+    add_column :users, :y, :integer, :default => 0, :null =>false                          
+    add_column :users, :z, :integer, :default => 0, :null =>false                         
   end
 
   def self.down
