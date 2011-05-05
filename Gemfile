@@ -1,7 +1,11 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.3'
-gem 'mysql2'
+#gem ' activerecord-mysql2-adapter'
+
+gem 'rails', '3.0.7'
+#, '3.0.3'
+
+ gem 'mysql2' ,  '0.2.7'
 gem 'omniauth'
 gem 'jquery-rails'
 gem 'bcrypt-ruby', :require => 'bcrypt'
@@ -16,8 +20,12 @@ group :development, :test do
   gem 'mocha'
   gem 'rspec-rails', '>= 2.0.1'
   gem 'factory_girl_rails'
-  gem 'autotest'
-  gem 'autotest-rails'
+#  gem 'autotest'
+#  gem 'autotest-rails'
+
+gem 'ZenTest'
+gem 'test_notifier'
+gem 'awesome_print'
 end
 
 group :development do

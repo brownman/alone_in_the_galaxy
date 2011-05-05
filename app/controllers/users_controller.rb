@@ -21,6 +21,7 @@ class UsersController < ApplicationController
 
   def create
     @user = User.new(params[:user])
+    ap @user
     if @user.save
       remember_user(@user)
       flash[:notice] = "Thank you for signing up! You are now logged in."
@@ -32,6 +33,7 @@ class UsersController < ApplicationController
 
   def edit
     @user = current_user
+    ap @user
     if params[:email]
       @user.email = params[:email]
     end

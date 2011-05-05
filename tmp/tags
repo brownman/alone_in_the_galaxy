@@ -1,0 +1,219 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddAvatarUrlToUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101029233118_add_avatar_url_to_users.rb	/^class AddAvatarUrlToUsers < ActiveRecord::Migration$/;"	c
+AddEmailOnMessageToUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20110212191244_add_email_on_message_to_users.rb	/^class AddEmailOnMessageToUsers < ActiveRecord::Migration$/;"	c
+AddEmailOptionsToUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101215010754_add_email_options_to_users.rb	/^class AddEmailOptionsToUsers < ActiveRecord::Migration$/;"	c
+AddGuestToUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016144720_add_guest_to_users.rb	/^class AddGuestToUsers < ActiveRecord::Migration$/;"	c
+AddIndexes	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101017234019_add_indexes.rb	/^class AddIndexes < ActiveRecord::Migration$/;"	c
+AddLastRequestAtToUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101022221421_add_last_request_at_to_users.rb	/^class AddLastRequestAtToUsers < ActiveRecord::Migration$/;"	c
+AddPublicizedAtToUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101216234423_add_publicized_at_to_users.rb	/^class AddPublicizedAtToUsers < ActiveRecord::Migration$/;"	c
+AddRankToUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101022230300_add_rank_to_users.rb	/^class AddRankToUsers < ActiveRecord::Migration$/;"	c
+AddTimeZoneToUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20110212190716_add_time_zone_to_users.rb	/^class AddTimeZoneToUsers < ActiveRecord::Migration$/;"	c
+AddTokenToUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101028222332_add_token_to_users.rb	/^class AddTokenToUsers < ActiveRecord::Migration$/;"	c
+Application	/home/dao01/WEBGL/episode-262/govsgo/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:Govsgo
+ApplicationController	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+Authentication	/home/dao01/WEBGL/episode-262/govsgo/app/models/authentication.rb	/^class Authentication < ActiveRecord::Base$/;"	c
+AuthenticationsController	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/authentications_controller.rb	/^class AuthenticationsController < ApplicationController$/;"	c
+AuthenticationsHelper	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/authentications_helper.rb	/^module AuthenticationsHelper$/;"	m
+Background Process	/home/dao01/WEBGL/episode-262/govsgo/README.markdown	/^### Background Process$/;"	h
+ControllerAuthentication	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^module ControllerAuthentication$/;"	m
+CreateAuthentications	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016203316_create_authentications.rb	/^class CreateAuthentications < ActiveRecord::Migration$/;"	c
+CreateGames	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016000701_create_games.rb	/^class CreateGames < ActiveRecord::Migration$/;"	c
+CreateMessages	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20110212173010_create_messages.rb	/^class CreateMessages < ActiveRecord::Migration$/;"	c
+CreateUsers	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016012116_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+Credits	/home/dao01/WEBGL/episode-262/govsgo/README.markdown	/^## Credits$/;"	h
+Error	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  class Error < StandardError; end$/;"	c	class:GameEngine
+ErrorMessagesHelper	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/error_messages_helper.rb	/^module ErrorMessagesHelper$/;"	m
+FormBuilderAdditions	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/error_messages_helper.rb	/^  module FormBuilderAdditions$/;"	m
+Game	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^class Game < ActiveRecord::Base$/;"	c
+GameEngine	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^class GameEngine$/;"	c
+GameThumb	/home/dao01/WEBGL/episode-262/govsgo/lib/game_thumb.rb	/^module GameThumb$/;"	m
+GamesController	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^class GamesController < ApplicationController$/;"	c
+GamesHelper	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/games_helper.rb	/^module GamesHelper$/;"	m
+Go vs Go	/home/dao01/WEBGL/episode-262/govsgo/README.markdown	/^# Go vs Go$/;"	h
+Govsgo	/home/dao01/WEBGL/episode-262/govsgo/config/application.rb	/^module Govsgo$/;"	m
+IllegalMove	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  class IllegalMove < Error; end$/;"	c	class:GameEngine
+LayoutHelper	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/layout_helper.rb	/^module LayoutHelper$/;"	m
+Message	/home/dao01/WEBGL/episode-262/govsgo/app/models/message.rb	/^class Message < ActiveRecord::Base$/;"	c
+MessagesController	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/messages_controller.rb	/^class MessagesController < ApplicationController$/;"	c
+MessagesHelper	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/messages_helper.rb	/^module MessagesHelper$/;"	m
+MovesController	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/moves_controller.rb	/^class MovesController < ApplicationController$/;"	c
+MovesHelper	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/moves_helper.rb	/^module MovesHelper$/;"	m
+Notifications	/home/dao01/WEBGL/episode-262/govsgo/app/mailers/notifications.rb	/^class Notifications < ActionMailer::Base$/;"	c
+OutOfTurn	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  class OutOfTurn < Error; end$/;"	c	class:GameEngine
+Profile	/home/dao01/WEBGL/episode-262/govsgo/app/models/profile.rb	/^class Profile$/;"	c
+RemoveValidPositionsFromGames	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101023213811_remove_valid_positions_from_games.rb	/^class RemoveValidPositionsFromGames < ActiveRecord::Migration$/;"	c
+SessionsController	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsHelper	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+Setup	/home/dao01/WEBGL/episode-262/govsgo/README.markdown	/^## Setup$/;"	h
+User	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UsersController	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersHelper	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+active?	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def active?$/;"	f	class:Game
+add_stones	/home/dao01/WEBGL/episode-262/govsgo/lib/game_thumb.rb	/^  def add_stones(board, stone, positions, offset)$/;"	f	class:GameThumb
+adjust_difficulty?	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def adjust_difficulty?$/;"	f	class:Game
+adjust_to_level	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def adjust_to_level(level)$/;"	f
+apply_omniauth	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def apply_omniauth(omniauth)$/;"	f	class:User
+authenticate	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def self.authenticate(login, pass)$/;"	F	class:User
+avatar_image_tag	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/application_helper.rb	/^  def avatar_image_tag(user)$/;"	f	class:ApplicationHelper
+avatar_url	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/application_helper.rb	/^  def avatar_url(user)$/;"	f
+black_positions_list	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def black_positions_list$/;"	f	class:Game
+board_div	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/games_helper.rb	/^  def board_div(game, &block)$/;"	f	class:GamesHelper
+calculate_gnugo_level	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def calculate_gnugo_level$/;"	f	class:User
+captured	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def captured(color)$/;"	f
+captures	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def captures(color)$/;"	f
+chat_message	/home/dao01/WEBGL/episode-262/govsgo/app/mailers/notifications.rb	/^  def chat_message(message)$/;"	f	class:Notifications
+color_at	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/games_helper.rb	/^  def color_at(position, game = @game)$/;"	f	class:GamesHelper
+create	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/authentications_controller.rb	/^  def create$/;"	f	class:AuthenticationsController
+create	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def create$/;"	f	class:GamesController
+create	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/messages_controller.rb	/^  def create$/;"	f	class:MessagesController
+create	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/moves_controller.rb	/^  def create$/;"	f	class:MovesController
+create	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+current_user	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def current_user$/;"	f	class:ControllerAuthentication
+current_user_or_guest	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def current_user_or_guest$/;"	f	class:ControllerAuthentication
+destroy	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/authentications_controller.rb	/^  def destroy$/;"	f	class:AuthenticationsController
+destroy	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+div_hidden_if	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/application_helper.rb	/^  def div_hidden_if(condition, options, &block)$/;"	f	class:ApplicationHelper
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016000701_create_games.rb	/^  def self.down$/;"	F	class:CreateGames
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016012116_create_users.rb	/^  def self.down$/;"	F	class:CreateUsers
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016144720_add_guest_to_users.rb	/^  def self.down$/;"	F	class:AddGuestToUsers
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016203316_create_authentications.rb	/^  def self.down$/;"	F	class:CreateAuthentications
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101017234019_add_indexes.rb	/^  def self.down$/;"	F	class:AddIndexes
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101022221421_add_last_request_at_to_users.rb	/^  def self.down$/;"	F	class:AddLastRequestAtToUsers
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101022230300_add_rank_to_users.rb	/^  def self.down$/;"	F	class:AddRankToUsers
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101023213811_remove_valid_positions_from_games.rb	/^  def self.down$/;"	F	class:RemoveValidPositionsFromGames
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101028222332_add_token_to_users.rb	/^  def self.down$/;"	F	class:AddTokenToUsers
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101029233118_add_avatar_url_to_users.rb	/^  def self.down$/;"	F	class:AddAvatarUrlToUsers
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101215010754_add_email_options_to_users.rb	/^  def self.down$/;"	F	class:AddEmailOptionsToUsers
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101216234423_add_publicized_at_to_users.rb	/^  def self.down$/;"	F	class:AddPublicizedAtToUsers
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20110212173010_create_messages.rb	/^  def self.down$/;"	F	class:CreateMessages
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20110212190716_add_time_zone_to_users.rb	/^  def self.down$/;"	F	class:AddTimeZoneToUsers
+down	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20110212191244_add_email_on_message_to_users.rb	/^  def self.down$/;"	F	class:AddEmailOnMessageToUsers
+edit	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def edit$/;"	f	class:GamesController
+edit	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+encrypt_password	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def encrypt_password(pass)$/;"	f	class:User
+ensure_player	/home/dao01/WEBGL/episode-262/govsgo/app/models/message.rb	/^  def ensure_player$/;"	f	class:Message
+error_messages	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/error_messages_helper.rb	/^    def error_messages(options = {})$/;"	f	class:FormBuilderAdditions
+error_messages_for	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/error_messages_helper.rb	/^  def error_messages_for(*objects)$/;"	f	class:ErrorMessagesHelper
+fetch_current_user	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def fetch_current_user$/;"	f	class:ControllerAuthentication
+fetch_games	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def fetch_games$/;"	f	class:GamesController
+finished?	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def finished?$/;"	f	class:Game
+forget_user	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def forget_user$/;"	f	class:ControllerAuthentication
+game_score	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/games_helper.rb	/^  def game_score(score, finished)$/;"	f	class:GamesHelper
+games	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def games$/;"	f	class:User
+games_their_turn	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def games_their_turn$/;"	f	class:User
+games_your_turn	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def games_your_turn$/;"	f	class:User
+generate	/home/dao01/WEBGL/episode-262/govsgo/lib/game_thumb.rb	/^  def generate(id, size, black_positions, white_positions)$/;"	f	class:GameThumb
+generate_thumbnail	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def generate_thumbnail$/;"	f	class:Game
+generate_token	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def generate_token(name)$/;"	f	class:User
+generate_tokens	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def generate_tokens$/;"	f	class:User
+gnugo_level	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def gnugo_level$/;"	f	class:User
+gnugo_point	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def gnugo_point(position)$/;"	f
+guest?	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def guest?$/;"	f	class:ControllerAuthentication
+handicap_positions	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def handicap_positions$/;"	f
+included	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def self.included(controller)$/;"	F	class:ControllerAuthentication
+index	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/authentications_controller.rb	/^  def index$/;"	f	class:AuthenticationsController
+index	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def index$/;"	f	class:GamesController
+index	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/moves_controller.rb	/^  def index$/;"	f	class:MovesController
+initialize	/home/dao01/WEBGL/episode-262/govsgo/app/models/profile.rb	/^  def initialize(color)$/;"	f	class:Profile
+initialize	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def initialize(gtp, options = {})$/;"	f	class:GameEngine
+invitation	/home/dao01/WEBGL/episode-262/govsgo/app/mailers/notifications.rb	/^  def invitation(game)$/;"	f	class:Notifications
+javascript	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/layout_helper.rb	/^  def javascript(*args)$/;"	f	class:LayoutHelper
+last_move	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def last_move$/;"	f	class:Game
+last_position	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def last_position$/;"	f	class:Game
+level_for	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def level_for(user)$/;"	f
+link_to_game_thumbnail	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/games_helper.rb	/^  def link_to_game_thumbnail(game)$/;"	f	class:GamesHelper
+link_to_user	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/application_helper.rb	/^  def link_to_user(user)$/;"	f
+logged_in?	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def logged_in?$/;"	f	class:ControllerAuthentication
+login_required	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def login_required(message = "You must first log in or sign up before accessing this page.")$/;"	f	class:ControllerAuthentication
+loser	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def loser$/;"	f
+mark_user_request	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/application_controller.rb	/^  def mark_user_request$/;"	f	class:ApplicationController
+matching_password?	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def matching_password?(pass)$/;"	f	class:User
+move	/home/dao01/WEBGL/episode-262/govsgo/app/mailers/notifications.rb	/^  def move(game)$/;"	f	class:Notifications
+move	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def move(position, user)$/;"	f	class:Game
+move	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def move(position = nil)$/;"	f
+move_games_to	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def move_games_to(user)$/;"	f	class:User
+moves_after	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def moves_after(index)$/;"	f	class:Game
+name_with_rank	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def name_with_rank$/;"	f	class:User
+new	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def new$/;"	f	class:GamesController
+new	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+online?	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def online?$/;"	f	class:User
+online_status	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/application_helper.rb	/^  def online_status(user)$/;"	f	class:ApplicationHelper
+opponent	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def opponent(player = current_player)$/;"	f
+opponent_found	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def opponent_found$/;"	f	class:Game
+opposite_color	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def opposite_color$/;"	f
+other	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def other$/;"	f	class:GamesController
+other_games	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def other_games$/;"	f	class:User
+over?	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def over?$/;"	f
+password_required?	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def password_required?$/;"	f	class:User
+play	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def play(position = nil)$/;"	f
+player?	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def player?(user)$/;"	f
+point	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def point(position)$/;"	f
+positions	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def positions(color)$/;"	f
+prepare	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def prepare$/;"	f	class:Game
+prepare_password	/home/dao01/WEBGL/episode-262/govsgo/app/models/user.rb	/^  def prepare_password$/;"	f	class:User
+profile_for	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def profile_for(color)$/;"	f	class:Game
+profiles	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def profiles$/;"	f	class:Game
+profiles_with_current_first	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def profiles_with_current_first$/;"	f	class:Game
+provider_name	/home/dao01/WEBGL/episode-262/govsgo/app/models/authentication.rb	/^  def provider_name$/;"	f	class:Authentication
+publicize	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/users_controller.rb	/^  def publicize$/;"	f	class:UsersController
+queue_computer_move	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def queue_computer_move$/;"	f	class:Game
+recipient	/home/dao01/WEBGL/episode-262/govsgo/app/models/message.rb	/^  def recipient$/;"	f	class:Message
+redirect_to_target_or_default	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def redirect_to_target_or_default(default)$/;"	f	class:ControllerAuthentication
+relative_date	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/application_helper.rb	/^  def relative_date(date)$/;"	f
+relative_time	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/application_helper.rb	/^  def relative_time(time)$/;"	f
+remember_move_index	/home/dao01/WEBGL/episode-262/govsgo/app/models/message.rb	/^  def remember_move_index$/;"	f	class:Message
+remember_user	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def remember_user(user)$/;"	f	class:ControllerAuthentication
+replay	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def replay(moves)$/;"	f	class:GameEngine
+resources	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def resources$/;"	f	class:GamesController
+resulting_level_for	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def resulting_level_for(user)$/;"	f
+run	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def self.run(options = {})$/;"	F	class:GameEngine
+score	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def score(color)$/;"	f
+send_email?	/home/dao01/WEBGL/episode-262/govsgo/app/models/message.rb	/^  def send_email?$/;"	f	class:Message
+set_user_time_zone	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/application_controller.rb	/^  def set_user_time_zone$/;"	f	class:ApplicationController
+sgf	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def sgf$/;"	f	class:GamesController
+sgf	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def sgf$/;"	f	class:Game
+sgf_point	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def sgf_point(position)$/;"	f
+show	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def show$/;"	f	class:GamesController
+show	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+show_title?	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/layout_helper.rb	/^  def show_title?$/;"	f	class:LayoutHelper
+split_moves	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def split_moves$/;"	f	class:Game
+start	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def start$/;"	f	class:Game
+started?	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def started?$/;"	f	class:Game
+store_target_location	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def store_target_location$/;"	f	class:ControllerAuthentication
+stylesheet	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/layout_helper.rb	/^  def stylesheet(*args)$/;"	f	class:LayoutHelper
+switch_current_player	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def switch_current_player$/;"	f
+thumbnail	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/games_helper.rb	/^  def thumbnail(game)$/;"	f	class:GamesHelper
+title	/home/dao01/WEBGL/episode-262/govsgo/app/helpers/layout_helper.rb	/^  def title(page_title, show_title = true)$/;"	f	class:LayoutHelper
+unsubscribe	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/users_controller.rb	/^  def unsubscribe$/;"	f	class:UsersController
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016000701_create_games.rb	/^  def self.up$/;"	F	class:CreateGames
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016012116_create_users.rb	/^  def self.up$/;"	F	class:CreateUsers
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016144720_add_guest_to_users.rb	/^  def self.up$/;"	F	class:AddGuestToUsers
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101016203316_create_authentications.rb	/^  def self.up$/;"	F	class:CreateAuthentications
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101017234019_add_indexes.rb	/^  def self.up$/;"	F	class:AddIndexes
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101022221421_add_last_request_at_to_users.rb	/^  def self.up$/;"	F	class:AddLastRequestAtToUsers
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101022230300_add_rank_to_users.rb	/^  def self.up$/;"	F	class:AddRankToUsers
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101023213811_remove_valid_positions_from_games.rb	/^  def self.up$/;"	F	class:RemoveValidPositionsFromGames
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101028222332_add_token_to_users.rb	/^  def self.up$/;"	F	class:AddTokenToUsers
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101029233118_add_avatar_url_to_users.rb	/^  def self.up$/;"	F	class:AddAvatarUrlToUsers
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101215010754_add_email_options_to_users.rb	/^  def self.up$/;"	F	class:AddEmailOptionsToUsers
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20101216234423_add_publicized_at_to_users.rb	/^  def self.up$/;"	F	class:AddPublicizedAtToUsers
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20110212173010_create_messages.rb	/^  def self.up$/;"	F	class:CreateMessages
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20110212190716_add_time_zone_to_users.rb	/^  def self.up$/;"	F	class:AddTimeZoneToUsers
+up	/home/dao01/WEBGL/episode-262/govsgo/db/migrate/20110212191244_add_email_on_message_to_users.rb	/^  def self.up$/;"	F	class:AddEmailOnMessageToUsers
+update	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def update$/;"	f	class:GamesController
+update	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+update_game_attributes_with_move	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def self.update_game_attributes_with_move(game, move = nil)$/;"	F	class:GameEngine
+update_game_attributes_with_move	/home/dao01/WEBGL/episode-262/govsgo/lib/game_engine.rb	/^  def update_game_attributes_with_move(game, move = nil)$/;"	f
+user_id	/home/dao01/WEBGL/episode-262/govsgo/app/models/profile.rb	/^  def user_id$/;"	f	class:Profile
+user_required	/home/dao01/WEBGL/episode-262/govsgo/lib/controller_authentication.rb	/^  def user_required(message = "You must first log in or sign up before accessing this page.")$/;"	f	class:ControllerAuthentication
+white_positions_list	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def white_positions_list$/;"	f	class:Game
+winner	/home/dao01/WEBGL/episode-262/govsgo/app/models/game.rb	/^  def winner$/;"	f
+your	/home/dao01/WEBGL/episode-262/govsgo/app/controllers/games_controller.rb	/^  def your$/;"	f	class:GamesController

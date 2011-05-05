@@ -136,6 +136,11 @@ describe User do
   it "gnugo_level defaults to 6" do
     User.new.gnugo_level.should == 6
   end
+  
+  
+  it "x position: defaults to 0" do
+    User.new(:x).should == 0
+  end    
 
   it "gnugo_level should average out resulting level for past games" do
     user = Factory(:user)
