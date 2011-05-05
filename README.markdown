@@ -1,3 +1,8 @@
+note:
+i base the building of this project upon the project: govsgo :)
+and I hope to learn from the best.
+thank ryanb for sharing your knowledge !
+
 # Go vs Go
 
 This is the source code for [govsgo.com](http://govsgo.com), a site for playing the board game [Go](http://bit.ly/9xwZTy) online with other players or against the computer.
