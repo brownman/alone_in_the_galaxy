@@ -1,0 +1,56 @@
+
+
+
+<script type="text/javascript" >
+  function user(id,name,position_x,position_y,position_z,stat)
+{
+  this.stat=stat;
+  this.id=id;
+  this.position_x = position_x;
+  this.position_y = position_y;
+  this.position_z = position_z;
+}
+
+
+//employee.prototype.salary=null;
+//fred.salary=new Number(20000);
+//var str1= (fred.salary).toString();
+//var ofer1 = new Number(0);
+
+var id;
+var name;
+var position_x;
+var position_y;
+var position_z;
+var stat;
+
+
+
+
+var m;
+
+var aOfer2 = [];
+var counter=0;
+<% @users.each do |user| %>
+  id =   <%=   user.id.to_i %> ;
+  name =   '<%=  escape_javascript( user.username) %>' ;
+  position_x =  <%=   user.x.to_i %> 
+position_y =  <%=   user.y.to_i %> 
+position_z =  <%=   user.z.to_i %> 
+  stat =   <%=  if user.online?; 1.to_s; else; 0.to_s; end; %> ;
+  m=new user(id, name , position_x , position_y , position_z ,  
+      stat);
+
+console.log(m);
+aOfer2.push(m);
+//console.log(aOfer2[counter].toString()  );
+
+counter= counter+1;
+  <% end %>
+
+  </script>
+
+</div>
+
+
+

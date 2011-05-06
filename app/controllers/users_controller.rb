@@ -1,5 +1,11 @@
 class UsersController < ApplicationController
   before_filter :login_required, :except => [:show, :new, :create, :unsubscribe]
+ 
+  def index
+
+        flash[:notice] = "Listing All Users:"
+    @users = User.find(:all)
+  end
 
   def show
     @user = User.where(:guest => false).find(params[:id])

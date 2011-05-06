@@ -1,0 +1,26 @@
+<% @users.each_with_index do |user, index| %>
+  <% unless index.zero? %>
+    <div class="user_divider"></div>
+  <% end %>
+  <div class="item user">
+    <%= avatar_image_tag(user) %>
+    <div class="details">
+      <%= link_to_user user %> <%= online_status(user) %>
+
+      <%= user.x %>
+      <%= user.y %>
+      <%= user.z %>
+      <%= user.last_request_at %>
+    </div>
+    <% unless user == current_user %>
+      <%= link_to "Challenge", new_game_path(:username => user.username), :class => "go_button" %>
+    <% end %>
+  </div>
+<% end %>
+
+   <div id='container0'  class="container0"  >
+     </div>                      
+     
+      <%= render "shared/pull_db" %>
+      <%= render "shared/camera" %>
+

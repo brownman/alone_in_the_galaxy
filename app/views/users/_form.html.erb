@@ -4,10 +4,17 @@
     <%= f.label :username %>
     <%= f.text_field :username %>
   </p>
-  <p>
+   <p>
+    <%= f.label  "position" %>
+
+    <%= f.text_field :x %>
+    <%= f.text_field :y %>
+    <%= f.text_field :z %>
+  </p>   
+   <p>
     <%= f.label :email, "Email Address" %>
     <%= f.text_field :email %>
-  </p>
+  </p>   
   <% unless session[:omniauth] %>
   <p>
     <%= f.label :password %>
